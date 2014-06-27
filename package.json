@@ -1,0 +1,29 @@
+{
+  "name": "imbo-twitter-stream",
+  "version": "0.1.0",
+  "description": "Fetches images from twitter and stores them in Imbo, before displaying them in a node-webkit application",
+  "main": "ui/index.html",
+  "dependencies": {
+    "imboclient": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rexxars/imbo-twitter-stream.git"
+  },
+  "keywords": [
+    "twitter",
+    "imbo",
+    "stream",
+    "images"
+  ],
+  "author": "Espen Hovlandsdal & Kristoffer Brabrand",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/imbo-twitter-stream/issues"
+  },
+  "homepage": "https://github.com/rexxars/imbo-twitter-stream"
+}
