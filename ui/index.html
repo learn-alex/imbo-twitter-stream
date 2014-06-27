@@ -4,23 +4,28 @@
     <title>Imbo Twitter Stream</title>
     <link rel="stylesheet" href="css/pure-min.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Imbo Twitter Stream</a>
+        <a class="pure-menu-heading" href="#stream">Imbo Twitter Stream</a>
 
         <ul>
-            <li class="pure-menu-selected"><a href="#">Stream</a></li>
+            <li class="pure-menu-selected"><a href="#stream">Stream</a></li>
             <li><a href="#settings" class="settings"><i class="fa fa-settings"></i> Settings</a></li>
         </ul>
     </div>
 </div>
 
-<div class="stream-container">
+<div id="settings" class="tab">
+    <h1>Settings</h1>
+</div>
+
+<div id="stream" class="tab stream-container active">
     <div class="stream">
-        <h1 class="widget info">Big Bold Text</h1>
+        <h1 class="widget info"></h1>
         <p>
             <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
         </p>

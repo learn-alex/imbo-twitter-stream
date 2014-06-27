@@ -1,0 +1,10 @@
+.tab {
+    display: none;
+    margin-top: 54px;
+
+    padding: 5px 15px;
+}
+
+.tab.active {
+    display: block;
+}
