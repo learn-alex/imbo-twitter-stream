@@ -3,8 +3,16 @@
   "version": "0.1.0",
   "description": "Fetches images from twitter and stores them in Imbo, before displaying them in a node-webkit application",
   "main": "ui/index.html",
+  "window": {
+    "toolbar": false,
+    "width": 800,
+    "height": 600
+  },
   "dependencies": {
-    "imboclient": "^2.2.1"
+    "imboclient": "^2.2.1",
+    "lodash": "^2.4.1",
+    "twit": "^1.1.15",
+    "jquery": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
