@@ -1,0 +1,1 @@
+var Imbo = require('imboclient');
